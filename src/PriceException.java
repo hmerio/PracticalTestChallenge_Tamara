@@ -1,19 +1,10 @@
 public class PriceException extends Exception{
-
-
+    /**
+     * in this class we hve the Exception we have if user has not enough money
+     * @param message - what we see in Exception
+     */
     public PriceException(String message) {
         super(message);
     }
 
-    public PriceException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
-    public PriceException(Throwable cause) {
-        super(cause);
-    }
-
-    public PriceException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-        super(message, cause, enableSuppression, writableStackTrace);
-    }
 }
